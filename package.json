@@ -5,12 +5,11 @@
   "author": "serge_kamya <sergekamya@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "bdd-lazy-var": "^2.6.1",
     "chai": "^4.3.4",
     "mocha": "^9.0.3"
   },
-
-"scripts": {
-  "test": "mocha spec"
-}
-
+  "scripts": {
+    "test": "mocha -u bdd-lazy-var/global --recursive --exit spec"
+  }
 }
