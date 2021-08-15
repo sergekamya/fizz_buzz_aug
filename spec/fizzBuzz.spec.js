@@ -23,8 +23,8 @@ describe("FizzBuzz", () => {
     expect($subject.play(5)).to.eql("buzz");
   })
 
-  it("is expected to return FizzBuzz if given 15", () => {
-    expect($subject.play(15)).to.eql("FizzBuzz");
+  it("is expected to return fizz-buzz if given 15", () => {
+    expect($subject.play(15)).to.eql("fizz-buzz");
 })
 
   

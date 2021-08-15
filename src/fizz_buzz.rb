@@ -5,9 +5,9 @@ class FizzBuzz
     elsif number % 5 == 0
       "buzz"
     elsif number % 15 == 0
-      "fizz-buzz"
-    elsif number = 1
-        1
+      "buzzz"
+    elsif
+       number
     end
   end
 end
